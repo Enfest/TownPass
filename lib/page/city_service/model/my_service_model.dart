@@ -28,6 +28,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  amelle
   ;
 }
 
@@ -173,6 +174,13 @@ extension MyServiceIdExt on MyServiceItemId {
           icon: Assets.svg.iconZoo24.svg(),
           category: MyServiceCategory.explore,
           destinationUrl: '',
+        ),
+      MyServiceItemId.amelle => MyServiceItem(
+          title: 'Amelle Hello',
+          description: '張譯心你好',
+          icon: Assets.svg.iconLocationSearch24.svg(),
+          category: MyServiceCategory.explore,
+          destinationUrl: 'http://10.0.2.2:5173/',
         ),
     };
   }
