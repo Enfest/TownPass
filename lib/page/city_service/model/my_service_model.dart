@@ -176,9 +176,9 @@ extension MyServiceIdExt on MyServiceItemId {
           destinationUrl: '',
         ),
       MyServiceItemId.amelle => MyServiceItem(
-          title: 'Amelle Hello',
-          description: '張譯心你好',
-          icon: Assets.svg.iconLocationSearch24.svg(),
+          title: '醫療小助手',
+          description: '智能醫療微服務平台',
+          icon: Assets.svg.iconVaccineAppointment.svg(),
           category: MyServiceCategory.explore,
           destinationUrl: 'http://10.0.2.2:5173/',
         ),
